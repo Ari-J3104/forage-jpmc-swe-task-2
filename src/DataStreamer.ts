@@ -30,7 +30,7 @@ class DataStreamer {
         callback(JSON.parse(request.responseText));
       } else {
         alert ('Request failed');
-      }
+         }
     }
 
     request.send();
